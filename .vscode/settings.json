@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "parser.h": "c",
+        "parser_codes.h": "c",
+        "command_callbacks.h": "c"
+    }
+}
