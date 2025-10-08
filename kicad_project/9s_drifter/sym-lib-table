@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AEM10941")(type "KiCad")(uri "/home/viny/Desktop/Tese/kicad_project/footprints/LIB_AEM10941-QFN/AEM10941-QFN/KiCad/AEM10941-QFN.kicad_sym")(options "")(descr ""))
+)

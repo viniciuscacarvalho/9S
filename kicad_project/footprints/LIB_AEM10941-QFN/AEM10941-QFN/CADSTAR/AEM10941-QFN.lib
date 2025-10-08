@@ -1,0 +1,16 @@
+.AEM10941-QFN :1 ;Power Management Specialized - PMIC PV Cell PMIC
+QFN50P500X500X90-29N-D
+*STM IC
+*NGS
+*PLB 1="BOOST" 2="SWBUCK" 3="BUCK" 4="CFG[2]" 5="CFG[1]" 6="CFG[0]" 7="SELMPP[1]" 8="SELMPP[0]" 9="FB PRIM D" 10="FB PRIM U" 11="LVOUT" 12="ENHV" 13="FB HV" 14="HVOUT" 15="BAL" 16="BATT" 17="PRIM" 18="ENLV" 19="STATUS[2]" 20="STATUS[1]" 21="STATUS[0]" 22="SET_OVCH" 23="SET_CHRDY" 24="SET_OVDIS" 25="SRC" 26="FB_COLD" 27="BUFSRC" 28="SWBOOST" 29="EP"
+*MXP 29
+*DFN AEM10941-QFN
+~!Mouser Part Number (120-AEM10941-QFN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/e-peas/AEM10941-QFN?qs=W%2FMpXkg%252BdQ7CeqB2lBPbRQ%3D%3D)
+~!Manufacturer_Name (E-PEAS)
+~!Manufacturer_Part_Number (AEM10941-QFN)
+~!Link Datasheet (https://e-peas.com/product/aem10941/)
+~!Height (0.9mm)
+~!3D_Model (AEM10941-QFN)
+AEM10941-QFN
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AEM10941-QFN"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-06-18:04:40)
+    (mountForm default
+        (footprintRef "QFN50P500X500X90-29N-D")
+        (spec "System")
+    )
+)

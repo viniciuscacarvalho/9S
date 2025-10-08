@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AEM10941_QFN'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "E-PEAS", "AEM10941-QFN" (!) = "", "QFN50P500X500X90-29N-D", "Quad Flat No-Lead", "120-AEM10941-QFN", "https://www.mouser.co.uk/ProductDetail/e-peas/AEM10941-QFN?qs=W%2FMpXkg%252BdQ7CeqB2lBPbRQ%3D%3D", "Power Management Specialized - PMIC PV Cell PMIC", "https://e-peas.com/product/aem10941/", "0.9 mm"
+END_PART
+
+END.
