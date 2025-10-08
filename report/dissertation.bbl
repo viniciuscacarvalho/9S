@@ -1,0 +1,20 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Matos et~al.(2022)Matos, Faria, Martins, et~al.]{sonda_optical}
+T.~Matos, C.~L. Faria, M.~S.~M. Martins, et~al.
+\newblock Development of an automated sensor for in-situ continuous monitoring
+  of sediment deposition and erosion: the sonda optical instrument.
+\newblock \emph{Science of the Total Environment}, 808:\penalty0 152164, 2022.
+
+\bibitem[Matos et~al.(2025)Matos, Rocha, Martins, and Goncalves]{nextsea_lab}
+T.~Matos, J.~L. Rocha, M.~Martins, and L.~M. Goncalves.
+\newblock Enhancing sea wave monitoring through integrated pressure sensors in
+  smart marine cables, 2025.
+\newblock Submitted to [Journal/Conference], April 2025.
+
+\end{thebibliography}

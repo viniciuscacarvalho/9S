@@ -1,7 +1,66 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage{dissertation}
-\makeglossaries
+\usepackage{colortbl}
 \makeindex
+
+%added
+
+\usepackage[acronym]{glossaries}
+
+\definecolor{lightgray}{gray}{0.95}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\definecolor{darkblue}{rgb}{0,0,0.6}
+
+\lstdefinelanguage{json}{
+    basicstyle=\ttfamily\small,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{lightgray},
+    literate=
+     *{0}{{{\color{blue}0}}}{1}
+      {1}{{{\color{blue}1}}}{1}
+      {2}{{{\color{blue}2}}}{1}
+      {3}{{{\color{blue}3}}}{1}
+      {4}{{{\color{blue}4}}}{1}
+      {5}{{{\color{blue}5}}}{1}
+      {6}{{{\color{blue}6}}}{1}
+      {7}{{{\color{blue}7}}}{1}
+      {8}{{{\color{blue}8}}}{1}
+      {9}{{{\color{blue}9}}}{1}
+      {:}{{{\color{black}:}}}{1}
+      {,}{{{\color{black},}}}{1}
+      {"}{{{\color{red}"}}}{1}
+}
+
+
+\lstdefinestyle{cStyle}{
+    language=C,
+    backgroundcolor=\color{lightgray},
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{darkblue}\bfseries,
+    commentstyle=\color{darkgreen},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    showspaces=false,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    tabsize=4,
+    captionpos=b
+}
+
+
+
+%added
+
 
 %\logo{EAAD}{School of Architecture, Art and Design}{}
 %\logoB{EAAD}{School of Architecture, Art and Design}{}
@@ -39,86 +98,114 @@
 %\logo{IE}{Institute of Education}{}
 %\logoB{IE}{Institute of Education}{}
 
-\author{Author's full name}
+\author{Vinicius Cunha Azevedo Carvalho}
 
-\titleA{Title Title Title Title Title Title}
-\titleB{Title Title Title Title Title}
-\titleC{Title Title Title Title}
+\titleA{9S Drifter}
+\titleB{Sensoring System for Surface Sea Streams}
+\titleC{and Scan of Sustainable Energy Streams}
 
-\masters{Master’s Dissertation in Informatics Engineering}
+\masters{Master’s Dissertation in \\Industrial Electronics and Computers Engineering}
 %\area{Area of specialization}
-\supervisor{Supervisor Name}
+\supervisor{Professor Luis Gonçalves}
 \cosupervisor{Co-Supervisor Name}
 
 \bibpunct[,]{(}{)}{;}{a}{,}{,}
+
+
+%added
+
+\makeglossaries
+
+\newacronym{uart}{UART}{Universal Asynchronous Receiver/Transmitter}
+\newacronym{lte}{LTE}{Long-Term Evolution}
+\newacronym{adc}{ADC}{Analog to Digital Converter}
+\newacronym{imu}{IMU}{Inertial Measurement Unit}
+\newacronym{pcb}{PCB}{Printed Circuit Board}
+\newacronym{gps}{GPS}{Global Positioning System}
+\newacronym{json}{JSON}{JavaScript Object Notation}
+\newacronym{stm32}{STM32}{STMicroelectronics 32-bit Microcontroller}
+\newacronym{dma}{DMA}{Direct Memory Access}
+\newacronym{iot}{IoT}{Internet of Things}
+\newacronym{db}{DB}{Database}
+\newacronym{hrsst}{HRSST}{High Resolution Sea Surface Temperature}
+\newacronym{itc}{ITC}{Inter Thread Communication}
+\newacronym{cs}{CS}{Channel Select}
+\newacronym{5s}{5S-Drifter}{Sensoring System for Surface Sea Streams}
+\newacronym{9s}{9S-Drifter}{Sensoring System for Surface Sea Streams
+and Scan of Sustainable Energy Streams}
+
+%added
+
+
 \begin{document}
-\setlength{\parindent}{0em}
+    \setlength{\parindent}{0em}
 
-%-- Covers
-\input{covers/Covers}
+    %-- Covers
+    \input{covers/Covers}
 
-%-- Document setup
-\newgeometry{right=25mm, left=25mm, top=25mm, bottom=25mm}
-\pagenumbering{roman}
+    %-- Document setup
+    \newgeometry{right=25mm, left=25mm, top=25mm, bottom=25mm}
+    \pagenumbering{roman}
 
-\setlength{\parskip}{0pt}
-\setlength{\parindent}{1.5em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parindent}{1.5em}
 
-%-- Preamble
-\input{preamble/Copyright}
-\input{preamble/Acknowledgements}
-\input{preamble/StatementofIntegrity}
-\input{preamble/Abstract}
+    %-- Preamble
+    \input{preamble/Copyright}
+    \input{preamble/Acknowledgements}
+    \input{preamble/StatementofIntegrity}
+    \input{preamble/Abstract}
 
-\phantomsection
-\tableofcontents
+    \phantomsection
+    \tableofcontents
 
-\cleardoublepage
-\listoffigures
+    \cleardoublepage
+    \listoffigures
 
-% List of tables
-\renewcommand*{\listtablename}{List of Tables}
-\listoftables
-\clearpage
+    % List of tables
+    \renewcommand*{\listtablename}{List of Tables}
+    \listoftables
+    \clearpage
 
-% Acronyms
-\printglossary[type=\acronymtype,nonumberlist, title={Acronyms}]
+    % Acronyms
+    \printglossary[type=\acronymtype,nonumberlist, title={Acronyms}]
 
-% Glossary
-\printglossary[title={Glossary}, nonumberlist]
+    % Glossary
+    \printglossary[title={Glossary}, nonumberlist]
 
-\cleardoublepage
-\pagenumbering{arabic}
+    \cleardoublepage
+    \pagenumbering{arabic}
 
-%-- Dissertation 
-\part{Introductory material}
+    %-- Dissertation 
+    \part{Introductory material}
 
-\input{chapters/Introduction}
-\input{chapters/StateOfTheArt}
-\input{chapters/ProblemAndChallenges}
+    \input{chapters/Introduction}
+    \input{chapters/StateOfTheArt}
+    \input{chapters/ProblemAndChallenges}
 
-\part{Core of the Dissertation}
+    \part{Core of the Dissertation}
 
-\input{chapters/Contribution}
-\input{chapters/Applications}
-\input{chapters/ConclusionsAndFutureWork}
-\input{chapters/PlannedSchedule}
+    \input{chapters/Contribution}
+    \input{chapters/Applications}
+    \input{chapters/ConclusionsAndFutureWork}
+    \input{chapters/PlannedSchedule}
 
-\renewcommand{\baselinestretch}{1}
-\bibliographystyle{plainnat}
-\bibliography{dissertation}
-\printindex
+    \renewcommand{\baselinestretch}{1}
+    \nocite{}
+    \bibliographystyle{plainnat}
+    \bibliography{dissertation}
+    \printindex
 
-\appendix
-\renewcommand\chaptername{Appendix}
+    \appendix
+    \renewcommand\chaptername{Appendix}
 
-\part{Appendices}
+    \part{Appendices}
 
-\input{appendices/SupportWork}
-\input{appendices/DetailsOfResults}
-\input{appendices/Listings}
-\input{appendices/Tooling}
+    \input{appendices/SupportWork}
+    \input{appendices/DetailsOfResults}
+    \input{appendices/Listings}
+    \input{appendices/Tooling}
 
-\input{covers/BackCover}
+    \input{covers/BackCover}
 
 \end{document}

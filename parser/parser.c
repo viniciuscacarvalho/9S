@@ -1,11 +1,9 @@
 #include "parser.h"
 
-
 #define MAX_LINE_LEN 64
 
 unsigned char command_len = 0;
 command_t* command_list;
-
 
 callback_pointer get_callback_by_name(const char* name) {
     if (strcmp(name, "RESET") == 0) return reset;
@@ -40,13 +38,13 @@ int init_parser()
         return -1;
     }
 
-    
+
     char line[MAX_LINE_LEN] = {0};
     int count = 0;
 
     fgets(line, sizeof(line), file);
     sscanf(line, "cmd_len:%hhu", &command_len);
-    printf("cmd_len:%d\n",command_len);
+    //printf("cmd_len:%d\n",command_len);
 
     command_list = malloc(command_len * sizeof(command_t));
     if (!command_list) {

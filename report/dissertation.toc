@@ -1,0 +1,73 @@
+\babel@toc {english}{}\relax 
+\contentsline {paragraph}{Keywords}{v}{chapter*.4}%
+\contentsline {paragraph}{Palavras-chave}{vi}{chapter*.5}%
+\contentsline {part}{I\hspace {1em}Introductory material}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Problem Statement}{3}{subsection.1.0.1}%
+\contentsline {subsubsection}{Oceanography}{3}{subsection.1.0.1}%
+\contentsline {subsubsection}{Transport}{3}{subsection.1.0.1}%
+\contentsline {subsubsection}{Ecology}{4}{figure.caption.11}%
+\contentsline {subsubsection}{Safety}{4}{figure.caption.12}%
+\contentsline {subsection}{\numberline {1.0.2}Problem Statement Analysis}{5}{subsection.1.0.2}%
+\contentsline {subsubsection}{Equipment Objectives}{5}{subsection.1.0.2}%
+\contentsline {chapter}{\numberline {2}Analysis}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Requirements and Constraints}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Requirements}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Constraints}{9}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}State of the art}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Copernicus Example}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}CMEMS Examples}{11}{subsection.2.2.2}%
+\contentsline {subsubsection}{SONDA}{11}{subsection.2.2.2}%
+\contentsline {subsubsection}{NextSea}{11}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}System Architecture}{12}{section.2.3}%
+\contentsline {subsubsection}{Block Diagram}{12}{section.2.3}%
+\contentsline {subsubsection}{Use Case}{13}{figure.caption.16}%
+\contentsline {subsubsection}{Sequence Diagram}{14}{figure.caption.17}%
+\contentsline {subsubsection}{Threads}{15}{figure.caption.19}%
+\contentsline {subsubsection}{Memory Abstraction (Log)}{16}{figure.caption.21}%
+\contentsline {section}{\numberline {2.4}Footnotes}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Acronyms and Glossary}{17}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Index}{18}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Design}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analysis Review}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Software}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Communication protocol}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Abstraction}{21}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Hardware}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Autonomy}{21}{subsection.3.3.1}%
+\contentsline {subsubsection}{Board Consumption}{22}{subsection.3.3.1}%
+\contentsline {subsubsection}{Possible Solar Energy}{27}{figure.caption.32}%
+\contentsline {subsubsection}{Batteries}{28}{figure.caption.32}%
+\contentsline {subsection}{\numberline {3.3.2}System Pinout}{29}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Shell}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Tools and COTS}{31}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Tools}{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{Inkscape}{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{draw.io}{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{STM32 CUBEmx}{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{Fusion360}{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{\LaTeX }{31}{subsection.3.5.1}%
+\contentsline {subsubsection}{Minicom}{32}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}COTS}{32}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}The problem and its challenges}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Images}{33}{section.4.1}%
+\contentsline {part}{II\hspace {1em}Core of the Dissertation}{34}{part.2}%
+\contentsline {chapter}{\numberline {5}Contribution}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Summary}{35}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Applications}{36}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{36}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Summary}{36}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{37}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusion}{37}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations and Future improvements}{37}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Final GIT}{38}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Special Greetings}{38}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Prospect for future work}{38}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Planned Schedule}{39}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Activities}{39}{section.8.1}%
+\contentsline {part}{III\hspace {1em}Appendices}{42}{part.3}%
+\contentsline {chapter}{\numberline {A}Support work}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Details of results}{44}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Listings}{45}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Tooling}{46}{appendix.D}%
