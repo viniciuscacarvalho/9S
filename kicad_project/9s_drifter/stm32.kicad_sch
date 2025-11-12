@@ -27,6 +27,28 @@
 			)
 		)
 	)
+	(global_label "IMU_SDA_PB9 (I2C1)"
+		(shape input)
+		(at 78.74 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e1f0b54-cebe-4735-a3e1-67a9bbfee6ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.1605 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_D0_PC8 (SDMMC1_D0)"
 		(shape input)
 		(at 80.01 142.24 180)
@@ -71,6 +93,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG_UART_RX_PC11 (USART3)"
+		(shape input)
+		(at 80.01 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44e7e2ef-1001-4920-b580-ac532c843423")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0006 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_D0_PC8 (SDMMC1_D2)"
 		(shape input)
 		(at 80.01 149.86 180)
@@ -93,9 +137,53 @@
 			)
 		)
 	)
+	(global_label "Batt_PA1(ADC1 INP17)"
+		(shape input)
+		(at 77.47 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e463d43-75b4-427b-8d4a-26397d790920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.9553 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AT_UART_TX_PA9 (USART1)"
+		(shape input)
+		(at 80.01 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b73f6e66-422d-45f8-b76b-0577beb7df1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.9272 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TEMP_SIGN_PA0 (ADC1_INP16)"
 		(shape input)
-		(at 81.28 111.76 180)
+		(at 78.74 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -105,7 +193,73 @@
 		)
 		(uuid "be327c01-3d81-483c-84bd-d3c58f3b043e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4477 111.76 0)
+			(at 46.9077 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AT_UART_RX_PA10 (USART1)"
+		(shape input)
+		(at 80.01 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bee96d6c-f47f-4cd0-ab56-db36ebd0864c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4153 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEBUG_UART_TX_PC10 (USART3)"
+		(shape input)
+		(at 80.01 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2586d5e-4dd1-4075-afd1-bf2dc66f9c7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.303 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_SCL_PB8 (I2C1)"
+		(shape input)
+		(at 78.74 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db3b0511-b53e-47ac-be50-85950d154eab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.221 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

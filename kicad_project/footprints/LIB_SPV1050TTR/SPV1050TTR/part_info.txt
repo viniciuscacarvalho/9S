@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=SPV1050TTR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2018-08-26 08:44:14
+Downloaded=2025-10-16 12:30:48
+3D=Y

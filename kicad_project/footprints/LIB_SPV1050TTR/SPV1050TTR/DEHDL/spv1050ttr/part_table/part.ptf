@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SPV1050TTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "SPV1050TTR" (!) = "", "QFN40P300X300X100-21N-D", "Quad Flat No-Lead", "511-SPV1050TTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SPV1050TTR?qs=4b8myOmUP%252BtjnNFr7g4Yxw%3D%3D", "STMICROELECTRONICS - SPV1050TTR - BATT CHARGER, LITHIUM, 0.07A, VFQFPN-20", "https://www.st.com/resource/en/datasheet/spv1050.pdf", "1 mm"
+END_PART
+
+END.

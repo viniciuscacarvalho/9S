@@ -1,0 +1,292 @@
+
+(EDIF
+  (rename &SPV1050TTR "SPV1050TTR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 10 16 12 30 48)
+      (dataOrigin "963357/1789855/2.50/21/3/Integrated Circuit")
+      (program "SamacSys ECAD Model SPV1050TTR"
+        (version "1.1"))))
+  (library
+  (rename &SPV1050TTR "SPV1050TTR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SPV1050TTR "SPV1050TTR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "SPV1050TTR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "QFN40P300X300X100-21N-D"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "511-SPV1050TTR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SPV1050TTR?qs=4b8myOmUP%252BtjnNFr7g4Yxw%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "STMicroelectronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SPV1050TTR"))
+          (property (rename &Description "Description") (string "STMICROELECTRONICS - SPV1050TTR - BATT CHARGER, LITHIUM, 0.07A, VFQFPN-20"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.st.com/resource/en/datasheet/spv1050.pdf"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SPV1050TTR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &MPP "MPP")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &MPPMSET "MPPMSET")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &MPPMREF "MPPMREF")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND "GND")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &LDO1_EN "LDO1_EN")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &LDO2_EN "LDO2_EN")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &_BATT_CHG "B\A\T\T\_\C\H\G\")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &_BATT_CONN "B\A\T\T\_\C\O\N\N\")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &EOC "EOC")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &UVP "UVP")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &LDO1 "LDO1")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &LDO2 "LDO2")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &CONF "CONF")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &BATT "BATT")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &STORE "STORE")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &IN_LV "IN_LV")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (port
+            (rename &PGND "PGND")
+            (designator "18")
+            (property (rename ORDER "Order") (string "17") (owner "OrCAD"))
+          )
+          (port
+            (rename &L_HV "L_HV")
+            (designator "19")
+            (property (rename ORDER "Order") (string "18") (owner "OrCAD"))
+          )
+          (port
+            (rename &IN_HV "IN_HV")
+            (designator "20")
+            (property (rename ORDER "Order") (string "19") (owner "OrCAD"))
+          )
+          (port
+            (rename &EPAD "EPAD")
+            (designator "21")
+            (property (rename ORDER "Order") (string "20") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &MPP (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &MPPMSET (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &MPPMREF (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -700) (pt 0 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -700))))
+            )
+            (portImplementation
+              (name &GND (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -800) (pt 0 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -800))))
+            )
+            (portImplementation
+              (name &LDO1_EN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -900) (pt 0 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -900))))
+            )
+            (portImplementation
+              (name &LDO2_EN (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -1800) (pt 200 -1600))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -1800))))
+            )
+            (portImplementation
+              (name &_BATT_CHG (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1800) (pt 300 -1600))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1800))))
+            )
+            (portImplementation
+              (name &_BATT_CONN (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1800) (pt 400 -1600))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1800))))
+            )
+            (portImplementation
+              (name &EOC (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1800) (pt 500 -1600))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1800))))
+            )
+            (portImplementation
+              (name &UVP (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -1800) (pt 600 -1600))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -1800))))
+            )
+            (portImplementation
+              (name &STORE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -500) (pt 1100 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -500))))
+            )
+            (portImplementation
+              (name &BATT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -600) (pt 1100 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -600))))
+            )
+            (portImplementation
+              (name &CONF (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -700) (pt 1100 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -700))))
+            )
+            (portImplementation
+              (name &LDO2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -800) (pt 1100 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -800))))
+            )
+            (portImplementation
+              (name &LDO1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -900) (pt 1100 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -900))))
+            )
+            (portImplementation
+              (name &EPAD (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &IN_HV (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &L_HV (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &PGND (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &IN_LV (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 900 0)
+                  (pt 900 -1600)
+                  (pt 0 -1600)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 30))))
+          )
+        )
+      )
+    )
+  )
+)

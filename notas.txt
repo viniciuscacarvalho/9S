@@ -1,0 +1,4 @@
+SIMCOM7070G não precisa de 12V (só precisa de 6), mas o modulo precisa, então 2 placas solares de 6V em serie no caso de usarmos o modulo.
+
+
+

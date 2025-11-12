@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SPV1050TTR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-15-16:49:18)
+    (mountForm default
+        (footprintRef "QFN40P300X300X100-21N-D")
+        (spec "System")
+    )
+)

@@ -1,0 +1,46 @@
+Reset behavior.
+REset then boot
+
+Debug detalhado
+
+sendCommand("AT+CMEE=2",2000);
+
+Debug simplificado
+
+sendCommand("AT+CMEE=0",2000);
+
+
+Medium,
+current when turned on:70mA
+current when GPS is tuned on: 70mA + 12mA
+
+
+hW TEST:
+
+AT
+
+AT+CPIN?
+
+AT+CGREG?
+
+
+Protocol test:
+
+AT+CIPSHUT
+
+AT+CSTT
+
+AT+CIICR
+
+AT+CIFSR 
+
+AT+CIPPING
+
+
+GPS:
+
+AT+CGNSPWR?
+
+AT+CGNSPWR=1
+
+AT+CGNSINF

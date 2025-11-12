@@ -614,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 58.42) (xy 88.9 60.96)
+			(xy 76.2 71.12) (xy 76.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -624,7 +624,67 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 19.05) (xy 88.9 22.86)
+			(xy 57.15 43.18) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba47c12-6796-4b61-b6af-615a32317dec")
+	)
+	(wire
+		(pts
+			(xy 57.15 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904a232f-e3f0-4c57-b763-b8cbb00ac1e3")
+	)
+	(wire
+		(pts
+			(xy 57.15 45.72) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96bab3a-12d2-4474-8d53-691b3babaf69")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 60.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75b6c5e-01b2-40ad-9e3a-f247d715777c")
+	)
+	(wire
+		(pts
+			(xy 57.15 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d964d8c4-e42f-4322-a5bd-aac519d09aba")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b00ca6-1238-4f45-afcd-210e84bfea51")
+	)
+	(wire
+		(pts
+			(xy 76.2 31.75) (xy 76.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -632,9 +692,141 @@
 		)
 		(uuid "f6fd707f-3529-44bf-b231-f19b3c331cdf")
 	)
+	(global_label "SD_D0_PC8 (SDMMC1_D1)"
+		(shape input)
+		(at 57.15 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08d4bb0c-7f54-4a57-980a-bcd589f699be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.5512 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_D0_PC8 (SDMMC1_D3)"
+		(shape input)
+		(at 57.15 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13e0758b-1c46-423d-b4d9-3ba07146abfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.5512 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CLK_PC12 (SDMMC1_CK)"
+		(shape input)
+		(at 57.15 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4179721d-445a-4d8c-870d-9f18471a2c89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1926 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_D0_PC8 (SDMMC1_D0)"
+		(shape input)
+		(at 57.15 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69917527-9896-4599-bc8c-8f970aee0992")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.5512 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_D0_PC8 (SDMMC1_D2)"
+		(shape input)
+		(at 57.15 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9b79b5b-750b-40c5-9687-b87bfd7847e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.5512 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CMD_PD2 (SDMMC1_CMD)"
+		(shape input)
+		(at 57.15 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1e0a876-d08f-4a39-b019-f66c362af785")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5274 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 60.96 0)
+		(at 76.2 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -643,7 +835,7 @@
 		(fields_autoplaced yes)
 		(uuid "a23c1870-87ae-4eaa-ad80-206c94245ce7")
 		(property "Reference" "#PWR012"
-			(at 88.9 67.31 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +844,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 66.04 0)
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 60.96 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 60.96 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 60.96 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +892,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.9 19.05 0)
+		(at 76.2 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -709,7 +901,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa578143-565a-4c59-9740-48bd28573c86")
 		(property "Reference" "#PWR013"
-			(at 88.9 22.86 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +910,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.9 13.97 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 19.05 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 19.05 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 19.05 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +958,7 @@
 	)
 	(symbol
 		(lib_id "Connector:SD_Card_Device")
-		(at 88.9 40.64 0)
+		(at 76.2 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -775,7 +967,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8c3d2f3-4eda-4c83-b3a0-1b5c13b5d3fa")
 		(property "Reference" "J1"
-			(at 102.87 39.3699 0)
+			(at 90.17 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +976,7 @@
 			)
 		)
 		(property "Value" "SD_Card_Device"
-			(at 102.87 41.9099 0)
+			(at 90.17 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 40.64 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +994,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
-			(at 88.9 40.64 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +1003,7 @@
 			)
 		)
 		(property "Description" "SD card device/card"
-			(at 88.9 40.64 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

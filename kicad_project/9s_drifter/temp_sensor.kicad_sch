@@ -5,4 +5,26 @@
 	(uuid "23c12695-7310-48a6-9ffc-13542a923e5c")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "TEMP_SIGN_PA0 (ADC1_INP16)"
+		(shape input)
+		(at 63.5 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a65a7e96-db58-4649-843f-53ac2b828c8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6677 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 )

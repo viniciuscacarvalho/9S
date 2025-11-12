@@ -5,4 +5,48 @@
 	(uuid "caf18563-4bc1-4c01-8198-bf8b0fd6d873")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "IMU_SCL_PB8 (I2C1)"
+		(shape input)
+		(at 66.04 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9ebfbc7-f8b0-4bfb-ac66-e02238efd4c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.521 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_SDA_PB9 (I2C1)"
+		(shape input)
+		(at 66.04 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6571d40-9892-4a41-b630-c9697fcdb31f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4605 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 )

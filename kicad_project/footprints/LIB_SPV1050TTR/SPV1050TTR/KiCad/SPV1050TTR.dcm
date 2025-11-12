@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPV1050TTR
+D STMICROELECTRONICS - SPV1050TTR - BATT CHARGER, LITHIUM, 0.07A, VFQFPN-20
+K
+F https://www.st.com/resource/en/datasheet/spv1050.pdf
+$ENDCMP
+#
+#End Doc Library

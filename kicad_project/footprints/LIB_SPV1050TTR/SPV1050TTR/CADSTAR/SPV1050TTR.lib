@@ -1,0 +1,16 @@
+.SPV1050TTR :1 ;STMICROELECTRONICS - SPV1050TTR - BATT CHARGER, LITHIUM, 0.07A, VFQFPN-20
+QFN40P300X300X100-21N-D
+*STM IC
+*NGS
+*PLB 1="MPP" 2="MPP-SET" 3="MPP-REF" 4="GND" 5="LDO1_EN" 6="LDO2_EN" 7="'BATT_CHG'" 8="'BATT_CONN'" 9="EOC" 10="UVP" 11="LDO1" 12="LDO2" 13="CONF" 14="BATT" 15="STORE" 16="IN_LV" 17="NC" 18="PGND" 19="L_HV" 20="IN_HV" 21="EPAD"
+*MXP 21
+*DFN SPV1050TTR
+~!Mouser Part Number (511-SPV1050TTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SPV1050TTR?qs=4b8myOmUP%252BtjnNFr7g4Yxw%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (SPV1050TTR)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/spv1050.pdf)
+~!Height (1mm)
+~!3D_Model (SPV1050TTR)
+SPV1050TTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 
