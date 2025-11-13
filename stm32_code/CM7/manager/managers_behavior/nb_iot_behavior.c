@@ -149,44 +149,4 @@ void nb_iot_update (void)
 	HAL_Delay(1000);
 }
 
-int at_send_command_with_attempt(
-    const char *command,
-    unsigned int timeout,
-    unsigned int return_size,
-    const char *true_str_1,
-    const char *true_str_2,
-    const char *false_str,
-    unsigned int attempt_number)
-{
-    for (unsigned int i = 0; i < (attempt_number - 1); i++)
-    {
-        uint32_t start = HAL_GetTick();
 
-        at_send_command(command, timeout, return_size);
-
-        char *resp = get_return_buffer();
-
-        if ( ((true_str_1 && strstr(resp, true_str_1)) ||
-              (true_str_2 && strstr(resp, true_str_2))) &&
-             (!false_str || strstr(resp, false_str) == NULL) )
-        {
-            return 0;
-        }
-
-        // Wait ~1 second before retry
-        while ((HAL_GetTick() - start) < 1000UL);
-    }
-
-    // Final attempt (no wait)
-    at_send_command(command, timeout, return_size);
-    char *resp = get_return_buffer();
-
-    if ( ((true_str_1 && strstr(resp, true_str_1)) ||
-          (true_str_2 && strstr(resp, true_str_2))) &&
-         (!false_str || strstr(resp, false_str) == NULL) )
-    {
-        return 0;
-    }
-
-    return -1; // Failed all attempts
-}

@@ -9,6 +9,7 @@
 #define MANAGER_MANAGERS_BEHAVIOR_NB_IOT_BEHAVIOR_H_
 
 #include "../manager.h"
+#include "../at_commands_ST87M01.h"
 
 /*Command list for a HTTP get
 	 *
@@ -155,13 +156,5 @@ void nb_iot_init (void);
 
 void nb_iot_update (void);
 
-int at_send_command_with_attempt(
-    const char *command,
-    unsigned int timeout,
-    unsigned int return_size,
-    const char *true_str_1,
-    const char *true_str_2,
-    const char *false_str,
-    unsigned int attempt_number)
-{
+
 #endif /* MANAGER_MANAGERS_BEHAVIOR_NB_IOT_BEHAVIOR_H_ */

@@ -1,0 +1,8 @@
+../manager/managers_behavior/temp_sensor/ds18b20.c:8:6:DS18B20_Pin_Output	1
+../manager/managers_behavior/temp_sensor/ds18b20.c:17:6:DS18B20_Pin_Input	1
+../manager/managers_behavior/temp_sensor/ds18b20.c:25:9:DS18B20_Reset	2
+../manager/managers_behavior/temp_sensor/ds18b20.c:37:6:DS18B20_WriteBit	3
+../manager/managers_behavior/temp_sensor/ds18b20.c:45:9:DS18B20_ReadBit	1
+../manager/managers_behavior/temp_sensor/ds18b20.c:57:6:DS18B20_WriteByte	2
+../manager/managers_behavior/temp_sensor/ds18b20.c:63:9:DS18B20_ReadByte	3
+../manager/managers_behavior/temp_sensor/ds18b20.c:71:7:DS18B20_GetTemp	1

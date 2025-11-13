@@ -8,7 +8,7 @@
 #ifndef PROJECT_AT_COMMANDS_ST87M01_H_
 #define PROJECT_AT_COMMANDS_ST87M01_H_
 
-#include "manager/manager.h"
+#include "manager.h"
 #include <string.h>
 
 //Init At commands
@@ -25,7 +25,16 @@
 
 #define MOBILE_COMMS_UART &huart3
 
+int at_send_command(const char* command, unsigned int timeout, const unsigned int return_size);
 
+int at_send_command_with_attempt(
+    const char *command,
+    unsigned int timeout,
+    unsigned int return_size,
+    const char *true_str_1,
+    const char *true_str_2,
+    const char *false_str,
+    unsigned int attempt_number);
 
 
 #endif /* PROJECT_AT_COMMANDS_ST87M01_H_ */

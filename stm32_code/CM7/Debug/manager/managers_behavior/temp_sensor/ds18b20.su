@@ -1,0 +1,8 @@
+../manager/managers_behavior/temp_sensor/ds18b20.c:8:6:DS18B20_Pin_Output	32	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:17:6:DS18B20_Pin_Input	32	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:25:9:DS18B20_Reset	16	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:37:6:DS18B20_WriteBit	16	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:45:9:DS18B20_ReadBit	16	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:57:6:DS18B20_WriteByte	24	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:63:9:DS18B20_ReadByte	16	static
+../manager/managers_behavior/temp_sensor/ds18b20.c:71:7:DS18B20_GetTemp	16	static

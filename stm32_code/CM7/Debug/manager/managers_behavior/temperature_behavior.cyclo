@@ -1,0 +1,2 @@
+../manager/managers_behavior/temperature_behavior.c:10:6:temperature_init	1
+../manager/managers_behavior/temperature_behavior.c:15:6:temperature_update	1

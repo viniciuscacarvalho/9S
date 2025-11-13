@@ -9,6 +9,9 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include manager/managers_behavior/temp_sensor/subdir.mk
+-include manager/managers_behavior/subdir.mk
+-include manager/subdir.mk
 -include Middlewares/Third_Party/FatFs/subdir.mk
 -include FATFS/Target/subdir.mk
 -include FATFS/App/subdir.mk

@@ -29,4 +29,7 @@ Drivers/STM32H7xx_HAL_Driver \
 FATFS/App \
 FATFS/Target \
 Middlewares/Third_Party/FatFs \
+manager \
+manager/managers_behavior \
+manager/managers_behavior/temp_sensor \
 

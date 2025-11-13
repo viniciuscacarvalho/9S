@@ -1,0 +1,2 @@
+../manager/managers_behavior/temp_sensor/delay.c:3:6:Delay_us	2
+../manager/managers_behavior/temp_sensor/delay.c:9:6:DWT_Init	1

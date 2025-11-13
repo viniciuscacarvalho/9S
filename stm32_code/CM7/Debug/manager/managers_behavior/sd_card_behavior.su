@@ -1,0 +1,2 @@
+../manager/managers_behavior/sd_card_behavior.c:21:6:sd_card_init	16	static
+../manager/managers_behavior/sd_card_behavior.c:58:6:sd_card_update	104	static

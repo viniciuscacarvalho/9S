@@ -1,0 +1,5 @@
+../manager/package.c:14:6:init_package_data	1
+../manager/package.c:20:17:write_package_data	1
+../manager/package.c:26:17:read_package_data	1
+../manager/package.c:31:5:package_data_add_error	1
+../manager/package.c:38:6:update_package_data	1

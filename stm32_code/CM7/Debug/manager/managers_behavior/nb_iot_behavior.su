@@ -1,0 +1,2 @@
+../manager/managers_behavior/nb_iot_behavior.c:10:6:nb_iot_init	88	static
+../manager/managers_behavior/nb_iot_behavior.c:146:6:nb_iot_update	8	static

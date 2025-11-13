@@ -9,7 +9,7 @@
 #define MANAGER_MANAGER_H_
 
 //#include "main.h"
-#include "../package.h"
+#include "package.h"
 #include <stdlib.h>
 
 #include "../../FATFS/App/fatfs.h"

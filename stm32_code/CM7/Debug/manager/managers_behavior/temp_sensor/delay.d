@@ -1,4 +1,13 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+manager/managers_behavior/temp_sensor/delay.o: \
+ ../manager/managers_behavior/temp_sensor/delay.c \
+ ../manager/managers_behavior/temp_sensor/delay.h \
+ ../manager/managers_behavior/temp_sensor/../../manager.h \
+ ../manager/managers_behavior/temp_sensor/../../package.h \
+ ../manager/managers_behavior/temp_sensor/../../defines.h \
+ ../Core/Inc/../../FATFS/App/fatfs.h \
+ ../../Middlewares/Third_Party/FatFs/src/ff.h \
+ ../../Middlewares/Third_Party/FatFs/src/integer.h \
+ ../FATFS/Target/ffconf.h ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -36,31 +45,32 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../Core/Inc/adc.h ../Core/Inc/main.h ../FATFS/App/fatfs.h \
- ../../Middlewares/Third_Party/FatFs/src/ff.h \
- ../../Middlewares/Third_Party/FatFs/src/integer.h \
- ../FATFS/Target/ffconf.h ../FATFS/Target/bsp_driver_sd.h \
+ ../FATFS/Target/bsp_driver_sd.h \
  ../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  ../../Middlewares/Third_Party/FatFs/src/diskio.h \
  ../../Middlewares/Third_Party/FatFs/src/ff.h ../FATFS/Target/sd_diskio.h \
- ../Core/Inc/i2c.h ../Core/Inc/memorymap.h ../Core/Inc/sdmmc.h \
- ../Core/Inc/usart.h ../Core/Inc/gpio.h \
- ../Core/Src/../../manager/manager.h ../Core/Src/../../manager/package.h \
- ../Core/Src/../../manager/defines.h ../Core/Inc/../../FATFS/App/fatfs.h \
- ../Core/Src/../../manager/managers_behavior/battery_behavior.h \
- ../Core/Src/../../manager/managers_behavior/../manager.h \
- ../Core/Src/../../manager/managers_behavior/imu_behavior.h \
- ../Core/Src/../../manager/managers_behavior/cnss_behavior.h \
- ../Core/Src/../../manager/managers_behavior/nb_iot_behavior.h \
- ../Core/Src/../../manager/managers_behavior/../at_commands_ST87M01.h \
- ../Core/Src/../../manager/managers_behavior/../manager.h \
- ../Core/Src/../../manager/managers_behavior/sd_card_behavior.h \
- ../Core/Src/../../manager/managers_behavior/temperature_behavior.h \
- ../Core/Src/../../manager/managers_behavior/temp_sensor/ds18b20.h \
- ../Core/Src/../../manager/managers_behavior/temp_sensor/../../manager.h \
- ../Core/Inc/../../Core/Inc/i2c.h ../Core/Inc/../../Core/Inc/usart.h \
- ../Core/Inc/../../Core/Inc/sdmmc.h ../Core/Inc/../../Core/Inc/gpio.h \
- ../Core/Inc/../../Core/Inc/adc.h
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/battery_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/../manager.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/imu_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/cnss_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/nb_iot_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/../at_commands_ST87M01.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/../manager.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/sd_card_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/temperature_behavior.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/temp_sensor/ds18b20.h \
+ ../manager/managers_behavior/temp_sensor/../../managers_behavior/temp_sensor/../../manager.h \
+ ../Core/Inc/../../Core/Inc/i2c.h ../Core/Inc/../../Core/Inc/main.h \
+ ../Core/Inc/../../Core/Inc/usart.h ../Core/Inc/../../Core/Inc/sdmmc.h \
+ ../Core/Inc/../../Core/Inc/gpio.h ../Core/Inc/../../Core/Inc/adc.h
+../manager/managers_behavior/temp_sensor/delay.h:
+../manager/managers_behavior/temp_sensor/../../manager.h:
+../manager/managers_behavior/temp_sensor/../../package.h:
+../manager/managers_behavior/temp_sensor/../../defines.h:
+../Core/Inc/../../FATFS/App/fatfs.h:
+../../Middlewares/Third_Party/FatFs/src/ff.h:
+../../Middlewares/Third_Party/FatFs/src/integer.h:
+../FATFS/Target/ffconf.h:
 ../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -99,38 +109,24 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-../Core/Inc/adc.h:
-../Core/Inc/main.h:
-../FATFS/App/fatfs.h:
-../../Middlewares/Third_Party/FatFs/src/ff.h:
-../../Middlewares/Third_Party/FatFs/src/integer.h:
-../FATFS/Target/ffconf.h:
 ../FATFS/Target/bsp_driver_sd.h:
 ../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
 ../../Middlewares/Third_Party/FatFs/src/diskio.h:
 ../../Middlewares/Third_Party/FatFs/src/ff.h:
 ../FATFS/Target/sd_diskio.h:
-../Core/Inc/i2c.h:
-../Core/Inc/memorymap.h:
-../Core/Inc/sdmmc.h:
-../Core/Inc/usart.h:
-../Core/Inc/gpio.h:
-../Core/Src/../../manager/manager.h:
-../Core/Src/../../manager/package.h:
-../Core/Src/../../manager/defines.h:
-../Core/Inc/../../FATFS/App/fatfs.h:
-../Core/Src/../../manager/managers_behavior/battery_behavior.h:
-../Core/Src/../../manager/managers_behavior/../manager.h:
-../Core/Src/../../manager/managers_behavior/imu_behavior.h:
-../Core/Src/../../manager/managers_behavior/cnss_behavior.h:
-../Core/Src/../../manager/managers_behavior/nb_iot_behavior.h:
-../Core/Src/../../manager/managers_behavior/../at_commands_ST87M01.h:
-../Core/Src/../../manager/managers_behavior/../manager.h:
-../Core/Src/../../manager/managers_behavior/sd_card_behavior.h:
-../Core/Src/../../manager/managers_behavior/temperature_behavior.h:
-../Core/Src/../../manager/managers_behavior/temp_sensor/ds18b20.h:
-../Core/Src/../../manager/managers_behavior/temp_sensor/../../manager.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/battery_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/../manager.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/imu_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/cnss_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/nb_iot_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/../at_commands_ST87M01.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/../manager.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/sd_card_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/temperature_behavior.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/temp_sensor/ds18b20.h:
+../manager/managers_behavior/temp_sensor/../../managers_behavior/temp_sensor/../../manager.h:
 ../Core/Inc/../../Core/Inc/i2c.h:
+../Core/Inc/../../Core/Inc/main.h:
 ../Core/Inc/../../Core/Inc/usart.h:
 ../Core/Inc/../../Core/Inc/sdmmc.h:
 ../Core/Inc/../../Core/Inc/gpio.h:
